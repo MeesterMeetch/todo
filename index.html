@@ -3,13 +3,79 @@
 <head>
   <meta charset="UTF-8">
   <title>ToDoApp</title>
+  <link rel="stylesheet" href="bower_components/normalize/normalize.min.js" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
 
 </head>
 <body>
 
 
+<!-- page wrapper -->
+<div class="container">
+  <header>
+    <span><h1>Todos</h1></span>
+  </header>
+
+  <div class="inner container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-11 toolbox">
+                <div class="todolist not-done">
+                 <h1>Todos</h1>
+                    <input type="text" class="form-control add-todo" placeholder="What needs to be done?">
+
+                        <ul id="sortable" class="list-unstyled">
+                          <!-- posts go here -->
+
+                        </ul>
+                    <div class="todo-footer">
+                        <strong><span class="count-todos"></span></strong> Items Left
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+  </div>
+
+  <footer><span><p>
+    Double-click to edit a Todo
+  </p></span></footer>
+
+</div>
+
+
+
+
+<!--               <content select="">
+
+  big clear interactive form with a slightly stronger bottom border
+
+  4 boxes
+
+    each has:
+    a top and bottom border
+    a checkbox (border radius-ed to a circle)
+      when the checkbox is clicked, the a green circle appears and the text is marked through
+
+    there will be a small footer for the checkbox
+      left side contains a count of incompleted (items without the checkbox clicked) "items left"
+
+      in the middle of the footer, there will be a "toggling view - we're going to use addClass & removeClass"
+          the clicked list will be formatted with a box around it
+            the clicked box will change the array being pulled back.  ALL, ACTIVE, COMPLETED
+
+      right side will have an object that will clear all completed (DELETE the completed items)
+
+</content> -->
+
+
+
+
 <script type="text/javascript" src="bower_components/underscore/underscore.js"> </script>
-<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"> </script>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"> </script>
+<script type="text/javascript" src="templates.js"> </script>
+<script type="text/javascript" src="main.js"> </script>
 </body>
 </html>
