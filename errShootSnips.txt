@@ -97,3 +97,22 @@ snip: http://bootsnipp.com/snippets/featured/todo-example
 
 -------------------- EVEN BETTER !!----------
 http://todomvc.com/examples/jquery/#/all
+
+
+8 tabs
+Created 6/11/2015, 11:47:45 AM
+Restore allDelete allShare as web pageMore...
+tiy-fee-rest.herokuapp.com/collections/mitch
+notes/11-underscore-and-templating.md at master · TIY-Charleston-Front-End-May2015/notes
+assignments/todo at master · TIY-Charleston-Front-End-May2015/assignments
+ToDoApp
+tiy-fee-rest.herokuapp.com/collections/mitch
+Heroku | Cloud Application Platform
+CSS · Bootstrap
+How Heroku Works | Heroku Dev Center
+3 tabs
+Created 6/3/2015, 9:39:59 AM
+Restore allDelete allShare as web pageMore...
+MeesterMeetch/map-filter-fp
+Underscore.js
+Document Object Model (DOM) - Web API Interfaces | MDN 
